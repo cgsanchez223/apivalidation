@@ -1,0 +1,11 @@
+- Unit 38.2 API Validation
+- Uses a bookstore API with the following routes
+    - GET /books - list of books
+    - POST /books - Create new books
+    - GET /books/[isbn] - shows specified book with isbn number
+    - PUT /books/[isbn] - updates a book
+    - DELETE /books/[isbn] - deletes a book
+
+- Config.js contains database name which is books
+- createdb books
+- psql books < data.sql
